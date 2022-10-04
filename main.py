@@ -4,9 +4,9 @@ def main():
         b = int(input('Введите B: '))
         x = int(input('Введите X: '))
         if x < 7:
-            y = x * x + a * a + b * b / (a + b)
+            y = (x * x + a * a + b * b) / (a + b)
         else:
-            y = x * x * x * (a + b) ** 2
+            y = x * x * x * (a * a + 2 * a * b + b * b)
         print("y = %.1f" % y)
     except ValueError:
         print("Неверные входные данные!")
