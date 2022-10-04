@@ -3,4 +3,4 @@
 Создание простейшей консольной программы
 Вариант 2
 
-![Screenshot](pythonScreenshot.png)
+![Screenshot](screenshotPy.png)
